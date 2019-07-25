@@ -3,6 +3,13 @@
 /* footer */
 
 /* 共通部分 */
+body {
+    serif;
+}
+
+* p {
+    font-size: 12px;
+}
 
 /* PC版 */
 /* SP版 */
