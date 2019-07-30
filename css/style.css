@@ -2,8 +2,7 @@
 header {
   width: 100%;
   font-size: 18px;
-  margin: 15px 0;
-  display: flex;
+  /* display: flex; */
 }
 
 .hero-area {
@@ -52,6 +51,11 @@ header li {
 
 /* main */
 /* footer */
+
+footer {
+  display: flex;
+  font-size: 12px;
+}
 
 /* 共通部分 */
 body {
