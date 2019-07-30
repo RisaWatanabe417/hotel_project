@@ -1,6 +1,61 @@
 /* header */
+header {
+  width: 100%;
+  font-size: 18px;
+  /* display: flex; */
+}
+
+.hero-area {
+  background-image: url(../img/hotel.jpg);
+  height: 590px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header ul {
+  justify-content: space-between;
+}
+
+header li {
+  width: 16%;
+  display: inline-block;
+  text-align: center;
+}
+
+.header-logo {
+  width: 16%;
+  text-align: center;
+}
+
+.header-logo img {
+  width: 30px;
+  height: auto;
+  /* text-align: center; */
+}
+
+.header-logo p {
+  font-size: 9px;
+}
+
+.header-navi {
+  width: 84%;
+  /* margin: auto 0; */
+}
+
+.section-title::after {
+  content: attr(data-subtitle);
+  display: block;
+  font-size: 12px;
+}
+
 /* main */
 /* footer */
+
+footer {
+  display: flex;
+  font-size: 12px;
+}
 
 /* 共通部分 */
 body {
@@ -8,7 +63,16 @@ body {
   color: #53585a;
 }
 * p {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+* a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* a:hover {
+  opacity: 0.7;
 }
 
 /* PC版 */
