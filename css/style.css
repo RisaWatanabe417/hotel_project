@@ -1,4 +1,43 @@
 /* header */
+header {
+  width: 100%;
+  font-size: 18px;
+  margin: 15px 0;
+  display: flex;
+}
+
+header ul {
+  justify-content: space-between;
+}
+
+header li {
+  display: inline-block;
+  text-align: center;
+}
+
+.header-logo {
+  width: 10%;
+}
+
+.header-logo img {
+  width: 30px;
+  height: auto;
+}
+
+.header-logo p {
+  font-size: 9px;
+}
+
+.header-navi {
+  width: 90%;
+}
+
+.section-title::after {
+  content: attr(data-subtitle);
+  display: block;
+  font-size: 12px;
+}
+
 /* main */
 /* footer */
 
@@ -8,7 +47,12 @@ body {
   color: #53585a;
 }
 * p {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+* a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* PC版 */
