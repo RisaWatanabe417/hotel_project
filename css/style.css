@@ -3,6 +3,10 @@
 /* footer */
 
 /* 共通部分 */
+body {
+  font-family: "リュウミン M-KO","Ryumin Medium KO","リュウミン M-KL","Ryumin Medium KL",游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+  color: #53585a;
+}
 * p {
     font-size: 12px;
 }
